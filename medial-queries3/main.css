@@ -1,3 +1,68 @@
 body {
-  background: peachpuff;
+  background: papayawhip;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 20vh;
+  font-size: 10vh;
+  height: 97vh;
+}
+
+* {
+  border: 1px solid green;
+}
+
+.a {
+  width: 100%;
+  height: 20%;
+}
+
+aside {
+  display: flex;
+}
+
+.most {
+  width: 100%;
+  height: 40%;
+}
+
+.most .bcd,
+.most .efg {
+  width: 100%;
+  height: 50%;
+}
+
+.b,
+.c,
+.d,
+.e,
+.f,
+.g {
+  width: 33.3%;
+}
+
+.h {
+  width: 100%;
+  height: 40%;
+}
+
+@media (min-width: 981px) {
+  .a {
+    width: 100%;
+    height: 33.3%;
+  }
+
+  .most {
+    width: 70%;
+    height: 66.7%;
+  }
+
+  .h {
+    width: 29.5%;
+    height: 66.9%;
+  }
 }
