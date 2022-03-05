@@ -35,7 +35,7 @@ body {
   height: 15vh;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 981px) {
   .container {
     flex-direction: row;
   }
